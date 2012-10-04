@@ -4,7 +4,7 @@ export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
 PROMPT='%{$fg_bold[green]%}%T%{$reset_color%} %~/%{$reset_color%}%# '
-RPROMPT='$git_prompt_info'
+RPROMPT='$(git_prompt_info)'
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_green]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[green]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
